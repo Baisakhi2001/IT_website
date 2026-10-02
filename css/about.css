@@ -1,0 +1,134 @@
+.blanck{
+	height: 30px;
+	width: 100%;
+	background:white;
+}
+.aboutbox{
+	height: 500px;
+	width: 100%;
+	margin-top: 40px;
+	border: 2px solid black;
+}
+
+.aboutbox img{
+	height: 100%;
+	width: 100%;
+
+}
+.aboutbox1{
+	height:640px;
+	width: 100%;
+	margin-top: 30px;
+	background:#212121;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.box1child{
+	height:560px;
+	width: 23%;
+	margin-top:15px;
+	background:white;
+	padding:2px;
+
+}
+.child1{
+	height: 30px;
+	width: 45%;
+	background:#c2c0c0;
+	border-radius: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.box1child img{
+	height:55%;
+	width: 100%;
+}
+.aboutbox2{
+	height: 120px;
+	width: 100%;
+	margin-top: 50px;
+	background:black;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+}
+.aboutbox2 h1{
+	font-size: 2.7rem;
+	font-weight: bold;
+	color: white;
+}
+/*.aboutbox3{
+	height:400px;
+	width: 100%;
+}*/
+
+.col{
+      height:auto;
+      /*border: 2px solid pink;*/
+    }
+    .cardimg{
+    	height:50%;
+    	width: 100%;
+    	/*background: darkred;*/
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+    	transition: all 0.5s ease;
+	     cursor: pointer;
+
+    }
+    .card img{
+    	height:100%;
+    	width:100%;
+    	transition: all 0.6s;
+    	
+    }
+    .card img:hover{
+     transform: scale(1.1);
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+    .card{
+      height:500px;
+      background:#212121;
+      /*border: 2px solid blue;*/
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  }
+  .card-body h3{
+  	color: white;
+  	font-weight: bold;
+  	font-size: 1.5rem;
+  } 
+  .card-body p{
+  	color: white;
+  	font-size: 1rem;
+  } 
+
+  .ab{
+    	display: flex;
+    	align-items: center;
+    	justify-content:space-evenly;
+    }
+/*.aboutbox3{
+	height:400px;
+	width: 100%;
+	border: 3px solid blue;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.box3child{
+	height: 350px;
+	width: 23%;
+	background:pink;
+}
+.box3child img{
+	height: 100%;
+	width: 100%;
+}*/

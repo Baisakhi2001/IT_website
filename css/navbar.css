@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container-fluid{
+	height:auto;
+	/*background:gray;*/
+	/*border: 2px solid black;
+}*/
+.menubar{
+	height: 100px;
+	width: 100%;
+	background:black;
+	display: flex;
+	align-items: center;
+	justify-content:space-evenly;
+	position:fixed;
+	top:0;
+	z-index: 999;
+
+}
+.logobox{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	border:2px solid white;
+}
+.logobox img{
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+
+      }
+      .menubox1{
+	height: 50px;
+	width: 600px;
+	background:#6f6f6fab;
+	/*border: 2px sod white;*/
+	display: flex;
+	align-items: center;
+	justify-content:space-evenly;
+	border-radius: 20px;
+
+}
+.menubox1 a{
+	color:white;
+	font-size: 1.2rem;
+	transition: all 0.5s ease;
+	cursor: pointer;
+	font-weight:400;
+	text-decoration: none;
+}
+.menubox1 a:hover{
+	/*color:black;*/
+	transform: scale(1.1);
+}
+.menubox2{
+	height: 50px;
+	width: 400px;
+	background:#6f6f6fab;
+	/*border: 2px sod white;*/
+	display: flex;
+	align-items: center;
+	justify-content:space-evenly;
+	border-radius: 20px;
+
+}
+.searchbox{
+	height: 40px;
+	width: 40px;
+	color:white;
+	/*border: 2px solid yellow;*/
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
+}
+
+.menubox2 a{
+	color:white;
+	font-size: 1.2rem;
+	transition: all 0.5s ease;
+	cursor: pointer;
+	font-weight:400;
+	text-decoration: none;
+}
